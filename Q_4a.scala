@@ -18,5 +18,6 @@ object Main {
   def takeHomeSalary(x:Int, y:Int): Double = { //final salary
     return Income(x,y) - tax(Income(x,y))
   }
-
+// answer =>
+//Take Home Salary = 11044.0
 }
