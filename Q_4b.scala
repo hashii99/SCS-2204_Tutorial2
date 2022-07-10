@@ -1,8 +1,11 @@
 object Main {
   def main(args: Array[String]): Unit = {
 
-    val Final_Profit = profit(24)
-    println("Best Ticket Price = "+Final_Profit)
+    val Final_Profit = profit(25)
+    println("Highest Profit = "+Final_Profit);
+    println("Best Ticket Price = " + 25);
+
+    
 
   }
   def NoOfAttendees(x:Int) : Int = { //calculate the number of attendees by giving the ticket price
@@ -19,5 +22,8 @@ object Main {
   def profit(x:Int):Int = {
     return revenue(x) - Cost(x)
   }
+  //answer =>
+  // Highest Profit = 1260
+  //Best Ticket Price = 25
   
 }
