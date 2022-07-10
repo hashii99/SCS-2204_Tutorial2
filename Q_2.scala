@@ -7,20 +7,24 @@ object Main {
     var k: Float = 4.3f
     var g: Float = 4.0f
 
+   //a
     b-=1 //--b
-    println(b*a+c*d)  // 24
+    println(b*a+c*d)  //24
     d-=1 //d--
 
+    //b
     println(a)  //2
     a+=1 //a++
 
-    println(-2 * (g-k)+c)  //4.6000004
+    //c
+    println(-2 * (g-k)+c)   //4.6000004
 
-    println(c) //4
+    //d
+    println(c)  //4
     c+=1 //c++
 
-    c+=1 //++c
-    println(c*a)  //18
+    //e
+    println(c*a)  //15 (no need to increment c, because in (d) part c incremented)
     a+=1  //a++
   }
 }
