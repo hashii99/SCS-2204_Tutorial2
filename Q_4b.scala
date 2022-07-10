@@ -1,7 +1,7 @@
 object Main {
   def main(args: Array[String]): Unit = {
 
-    val Final_Profit = profit(10)
+    val Final_Profit = profit(24)
     println("Best Ticket Price = "+Final_Profit)
 
   }
@@ -19,6 +19,5 @@ object Main {
   def profit(x:Int):Int = {
     return revenue(x) - Cost(x)
   }
-  //answer=>
-  // Best Ticket Price = 480
+  
 }
