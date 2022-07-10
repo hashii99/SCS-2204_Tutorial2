@@ -9,18 +9,18 @@ object Main {
     var g: Float = 4.0f
     var c: Char = 'X'
 
-    println(k+12*m)
+    println(k+12*m) //62
 
-    println(m/j)
+    println(m/j) //2
 
-    println(n%j)
+    println(n%j) //1
 
-    println(m/j*j)
+    println(m/j*j) //4
 
-    println(f+10*5+g)
+    println(f+10*5+g) //66.0
 
     i+=1  //++i
-    println(i*n)
+    println(i*n) //15
 
   }
 }
