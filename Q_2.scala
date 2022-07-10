@@ -8,19 +8,19 @@ object Main {
     var g: Float = 4.0f
 
     b-=1 //--b
-    println(b*a+c*d)
+    println(b*a+c*d)  // 24
     d-=1 //d--
 
-    println(a)
+    println(a)  //2
     a+=1 //a++
 
-    println(-2 * (g-k)+c)
+    println(-2 * (g-k)+c)  //4.6000004
 
-    println(c)
+    println(c) //4
     c+=1 //c++
 
     c+=1 //++c
-    println(c*a)
+    println(c*a)  //18
     a+=1  //a++
   }
 }
