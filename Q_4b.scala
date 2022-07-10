@@ -5,8 +5,6 @@ object Main {
     println("Highest Profit = "+Final_Profit);
     println("Best Ticket Price = " + 25);
 
-    
-
   }
   def NoOfAttendees(x:Int) : Int = { //calculate the number of attendees by giving the ticket price
     return 120 + (15-x)/5*20
